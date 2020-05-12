@@ -1,0 +1,74 @@
+Virtual Fish Tank
+
+Concept
+	Take care of some virtual fish by feeding them and keeping them healthy and happy.  Over time your tank gets dirty, so you'll need to clean it to keep your fish healthy.  If you fish get sick, you'll need to give them medicine to make them better.  Accessories in the tank can help reduce stress and keep your fish healthy and happy.
+
+
+Goals
+	-Virtual fish that get stressed, hungry and sick
+	-Tank should get dirty, making the fish get sick easier
+	-(Optional) Manage an allowance to purchase things for the tank
+		-Food and Medicine (reduces hunger and sickness)
+		-Cleaning Supplies (improves tank conditions)
+		-Tank Accessories (reduces stress)
+		-More fish / bigger tanks (level up mechanics)
+
+General concepts
+	-Tank should get dirty over time
+		-More fish increases the rate
+		-Feeding more often increases the rate
+		-Dirty filter increases the rate
+		-Cleaning takes time and some money
+		-Cleaning stresses your fish (get sick easier)
+	-Fish get hungry
+		-Fish get hungry over time, and need regular feeding
+		-Fish food costs money
+		-Feeding causes the tank to get dirtier
+	-Fish get sick
+		-Chance of getting sick increases with stress
+		-Chance of getting sick increases with dirty tank (dirty tank may cause stress)
+	-Fish get stressed
+		-Stress spikes when cleaning the tank
+		-Stress increases with a dirtier tank
+		-Stress is lowered when eating
+		-Stress is lowered with more accessories in the tank
+
+MVP
+x	-Common Goldfish model swimming around in a tank
+75%	-Able to feed the fish and they come up to eat
+	-Tank gets dirty (phase in slime texture on the glass)
+	-Cleaning the tank (water level to half and then back up again)
+	-Fish get sick (phase in translucent film texture, swims slower)
+	-Fish dies (floating upside-down at top of tank)
+	-Fish have limited lifetime that decreases with stress?
+
+BONUS
+	-Improved Goldfish model
+
+Fish (model)
+	Hunger 0-1f
+	Sick 0-1f
+	Stress 0-1f
+	Eat(food)
+	Lifespan (0 to 1f)
+	Medicate(medicine)
+	IsDead - (Sick or Hunger at 1.0f maybe lifetime at 1.0f??)
+
+Food
+	Nutrition 0-1f
+	Waste 0-1f
+	StressReduction 0-1f
+
+Medicine
+	Healing 0-1f
+	
+Tank
+	Dirty 0-1f
+	Clean(amount 0-1f)
+		Stress?
+
+Accessory (model)
+	StressReduction 0-1f
+	Countdown float(seconds)
+	Apply(fish)
+	

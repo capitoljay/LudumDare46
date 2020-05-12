@@ -1,0 +1,20 @@
+x	UI Work
+x	Sound
+x	Feeding
+x	Medicating
+x	Cleaning
+x	Fish death/lifetime
+x	Start/Pause menu
+x	(BONUS) Fish Grow Bigger
+	(BONUS) Allowance/Budget
+
+x	Speed up metrics
+x	Fish Tank Borders
+X	Poop Decay issues
+x	FishManager/Spawner
+
+80%	TankManager/TankGetsDirty (Needs food count)	
+	Tank Cleaning (highly stresses fish)
+10%	Fish sickness/healing
+	Inventory (start with one batch of food and medicine)
+	Allowance (start with $10 and get $10 every so often)

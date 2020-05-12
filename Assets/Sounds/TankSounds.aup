@@ -1,0 +1,66 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="TankSounds_data" version="1.3.0" audacityversion="2.3.0" sel0="0.0000000000" sel1="5.5384580499" vpos="48" h="0.0000000000" zoom="117.7009746937" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="Software" value="FL Studio 20"/>
+	</tags>
+	<wavetrack name="AirPump" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="92974">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808f4a.au" len="51094" min="-0.703673" max="0.674901" rms="0.084847"/>
+				</waveblock>
+				<waveblock start="51094">
+					<simpleblockfile filename="e0808664.au" len="41880" min="-0.673821" max="0.660739" rms="0.08299"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="WaterSplashes" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="48000" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="715712">
+				<waveblock start="0">
+					<simpleblockfile filename="e080817a.au" len="262144" min="-0.452336" max="0.452479" rms="0.026527"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="e0808e3c.au" len="262144" min="-0.727586" max="0.941494" rms="0.029839"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="e0808057.au" len="191424" min="-0.713651" max="0.814616" rms="0.027231"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="AirPump" channel="2" linked="0" mute="1" solo="0" height="150" minimized="0" isSelected="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="60034">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808b0f.au" len="60034" min="-0.249043" max="0.231752" rms="0.055787"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="AirPump2" channel="0" linked="1" mute="0" solo="1" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="244246">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808904.au" len="244246" min="-0.147946" max="0.219659" rms="0.08592"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="AirPump2" channel="1" linked="0" mute="0" solo="1" height="150" minimized="0" isSelected="1" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="244246">
+				<waveblock start="0">
+					<simpleblockfile filename="e0808627.au" len="244246" min="-0.178057" max="0.243518" rms="0.124303"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
