@@ -109,9 +109,9 @@ public class UIManager : MonoBehaviour
 
         cleanButton.interactable = CanClean();
 
-        cleanButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Clean Tank ({Mathf.RoundToInt(cleanerTimeout)} s)";
-        foodButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Add Food ({foodInventory})";
-        medicineButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Add Medicine ({medicineInventory})";
+        cleanButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Clean Tank\n({Mathf.RoundToInt(cleanerTimeout)} s)";
+        foodButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Add Food\n({foodInventory})";
+        medicineButton.GetComponentInChildren<TextMeshProUGUI>().text = $"Add Medicine\n({medicineInventory})";
 
         if (Input.GetKeyUp(KeyCode.Escape))
         {
